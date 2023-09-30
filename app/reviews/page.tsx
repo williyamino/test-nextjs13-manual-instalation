@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Heading from "@/components/heading/Heading";
 
 export default function ReviewPage() {
   return (
     <>
-      <h1>Review Page</h1>
+      <Heading>Review Page</Heading>
       <ul>
         <li>
           <Link href="/reviews/hollow-knight">Hollow Knight</Link>

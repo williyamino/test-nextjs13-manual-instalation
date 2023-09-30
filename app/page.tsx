@@ -1,8 +1,10 @@
+import Heading from "@/components/heading/Heading";
+
 export default function HomePage() {
   return (
     <>
-      <h1>My first Next.js page</h1>
-      <p>This is your first home library</p>
+      <Heading>Indie Gamer</Heading>
+      <p>Only the best indie games, reviewed for you</p>
     </>
   );
 }
